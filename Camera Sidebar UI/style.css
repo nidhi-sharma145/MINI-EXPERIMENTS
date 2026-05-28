@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sidebar_menu {
+    position: fixed;
+    left: -300px;
+}
+
+.btn_one {
+    font-size: 26px;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-weight: 700px;
+}
+
+#check:checked~ .sidebar_menu {
+    left: 0px;
+}
+
+.main_box {
+    background-image: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar_menu {
+    background-color: rgba(254, 252, 252, 0.135);
+    height: 100%;
+    width: 190px;
+    color: white;
+    position: absolute;
+    top: 10px;
+}
+
+li:hover {
+    box-shadow: 0px 0px 4px aqua
+}
+
+li {
+    line-height: 30px;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#check {
+    display: none;
+}
+
+#check:checked ~ .btn_one label {
+  display: none;
+}
+
+.btn_two {
+    position: absolute;
+    left: 170px;
+    top: 4px;
+    font-size: 20px;
+}
+
+.menu {
+    height: 300px;
+}
+
+.logo {
+    text-align: center;
+    box-shadow: 1px 1px 4px aqua;
+    font-size: 25px;
+}
+
+.social_media a:hover {
+    color: aqua;
+    font-size: 1.1em;
+}
+
+.social_media {
+    margin-left: 27px;
+}
